@@ -14,3 +14,4 @@ A sample project put together to demo emulating Azure Storage for local developm
 
 ### How to run tests
 - From root directory of the project, run: `pytest`
+(In case of import errors, try setting the PYTHONPATH variable to project root directory prior to invoking pytest: `PYTHONPATH=$PWD pytest`)
